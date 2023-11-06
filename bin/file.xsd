@@ -1,0 +1,39 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="GunList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Gun" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="model" type="xs:string"/>
+              <xs:element name="handy" type="xs:boolean"/>
+              <xs:element name="origin" type="xs:string"/>
+              <xs:element name="material" type="xs:string"/>
+              <xs:element name="ttc">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="range">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:enumeration value="CLOSE"/>
+                          <xs:enumeration value="MID"/>
+                          <xs:enumeration value="LONG"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="aimed" type="xs:int"/>
+                    <xs:element name="clip" type="xs:int"/>
+                    <xs:element name="scope" type="xs:boolean"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

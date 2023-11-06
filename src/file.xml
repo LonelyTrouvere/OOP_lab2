@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GunList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:noNamespaceSchemaLocation="file.xsd">
+<GunList>
     <Gun id="43264823">
         <model>MP-5</model>
         <handy>false</handy>
@@ -22,6 +21,66 @@
             <range>MID</range>
             <aimed>500</aimed>
             <clip>40</clip>
+            <scope>true</scope>
+        </ttc>
+    </Gun>
+    <Gun id="34567890">
+        <model>CZ Scorpion EVO 3</model>
+        <handy>true</handy>
+        <origin>Czech Republic</origin>
+        <material>Plastic and Aluminum</material>
+        <ttc>
+            <range>CLOSE</range>
+            <aimed>300</aimed>
+            <clip>30</clip>
+            <scope>true</scope>
+        </ttc>
+    </Gun>
+    <Gun id="23456789">
+        <model>L85A2</model>
+        <handy>true</handy>
+        <origin>United Kingdom</origin>
+        <material>Aluminum and Polymer</material>
+        <ttc>
+            <range>MID</range>
+            <aimed>450</aimed>
+            <clip>30</clip>
+            <scope>true</scope>
+        </ttc>
+    </Gun>
+    <Gun id="65432198">
+        <model>FAMAS F1</model>
+        <handy>true</handy>
+        <origin>France</origin>
+        <material>Plastic and Steel</material>
+        <ttc>
+            <range>MID</range>
+            <aimed>400</aimed>
+            <clip>25</clip>
+            <scope>true</scope>
+        </ttc>
+    </Gun>
+    <Gun id="54321678">
+        <model>Tavor X95</model>
+        <handy>true</handy>
+        <origin>Israel</origin>
+        <material>Polymer</material>
+        <ttc>
+            <range>CLOSE</range>
+            <aimed>250</aimed>
+            <clip>30</clip>
+            <scope>true</scope>
+        </ttc>
+    </Gun>
+    <Gun id="87654321">
+        <model>M16</model>
+        <handy>true</handy>
+        <origin>United States</origin>
+        <material>Aluminum and Polymer</material>
+        <ttc>
+            <range>CLOSE</range>
+            <aimed>350</aimed>
+            <clip>20</clip>
             <scope>true</scope>
         </ttc>
     </Gun>
