@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GunList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="file.xsd">
+    <Gun id="43264823">
+        <model>MP-5</model>
+        <handy>false</handy>
+        <origin>Germany</origin>
+        <material>Plastic</material>
+        <ttc>
+            <range>MID</range>
+            <aimed>300</aimed>
+            <clip>25</clip>
+            <scope>false</scope>
+        </ttc>
+    </Gun>
+    <Gun id="90943274">
+        <model>FN F2000</model>
+        <handy>false</handy>
+        <origin>Belgium</origin>
+        <material>Plastic</material>
+        <ttc>
+            <range>MID</range>
+            <aimed>500</aimed>
+            <clip>40</clip>
+            <scope>true</scope>
+        </ttc>
+    </Gun>
+</GunList>
