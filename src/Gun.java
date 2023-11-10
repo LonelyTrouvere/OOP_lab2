@@ -20,6 +20,17 @@ public class Gun {
         this.ttc_scope = ttc_scope;
     }
 
+    public Gun(){
+        model="";
+        handy=false;
+        origin="";
+        material="";
+        ttc_range="";
+        ttc_aimed=0;
+        ttc_clip=0;
+        ttc_scope=false;
+
+    }
 
     public String toString(){
         return("Model: "+model+"\nHandy: "+handy+"\nOrigin: "+origin+"\nMaterial: "+material+"\nTTC: "+

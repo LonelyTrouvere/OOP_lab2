@@ -1,9 +1,8 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        DOM dom = new DOM();
+        StAX dom = new StAX();
 
-        var k = dom.getGuns();
-        for(int i=0; i<k.size(); i++)
-            System.out.println(k.get(i).toString());
+        for(int i=0; i<dom.list.size(); i++)
+            System.out.println(dom.list.get(i).toString());
     }
 }
